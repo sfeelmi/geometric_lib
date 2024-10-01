@@ -1,5 +1,13 @@
-def area(a, h):
-    return a * h / 2
+def area(a, h):  '''Функция для нахождения площади треугольника.'''
+return a * h / 2
 
-def perimeter(a, b, c):
-    return a + b + c
+
+def perimeter(a, b, c):  '''Функция для нахождения периметра треугольника.'''
+return a + b + c
+'''
+Пример:
+Входные данные: a = 3, b = h = 4, c = 5
+1.def area(a, h)
+Возвращаемое значение: 6
+2.def perimeter(a, b)
+Возвращаемое значение: 12'''
